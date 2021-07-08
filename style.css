@@ -30,8 +30,28 @@ h1{
 h2,p{
     text-align: center;
 }
-
+a:link{
+    color:mediumblue
+}
+a:visited{
+    color:darkgreen;
+}
 body{
     margin: 0px;
     background-color: #ffffe0
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color: mistyrose;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
